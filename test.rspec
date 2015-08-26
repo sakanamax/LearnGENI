@@ -1,0 +1,11 @@
+<rspec xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/request.xsd" type="request">
+  <node xmlns="http://www.geni.net/resources/rspec/3" client_id="node-0" component_manager_id="urn:publicid:IDN+exogeni.net:slvmsite+authority+am">
+    <icon xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1" url="https://portal.geni.net/images/EG-VM-noTxt-centered.svg"/>
+    <routable_control_ip xmlns="http://www.protogeni.net/resources/rspec/ext/emulab/1"/>
+    <sliver_type xmlns="http://www.geni.net/resources/rspec/3" name="XOLarge">
+      <disk_image xmlns="http://www.geni.net/resources/rspec/3" name="http://geni-images.renci.org/images/standard/ubuntu/ub1404-v1.0.3.xml" version="2d553fdbca830020d7cf13011399d7210dcefe96"/>
+    </sliver_type>
+    <hardware_type xmlns="http://www.geni.net/resources/rspec/3" name="orca-vm-cloud"/>
+    <services xmlns="http://www.geni.net/resources/rspec/3"/>
+  </node>
+</rspec>
